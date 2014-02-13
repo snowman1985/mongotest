@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+#This is query test script
 
 import sys
 import random
