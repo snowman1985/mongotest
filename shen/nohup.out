@@ -1,0 +1,518 @@
+start time: Mon Dec 30 15:34:17 2013
+Traceback (most recent call last):
+  File "./removecomments_ph.py", line 48, in <module>
+    t.join()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 145, in join
+    res = self._popen.wait(timeout)
+  File "/usr/lib/python2.7/multiprocessing/forking.py", line 148, in wait
+    return self.poll(0)
+  File "/usr/lib/python2.7/multiprocessing/forking.py", line 133, in poll
+    pid, sts = os.waitpid(self.pid, flag)
+KeyboardInterrupt
+Process Process-4:
+Process Process-14:
+Process Process-8:
+Traceback (most recent call last):
+Traceback (most recent call last):
+Process Process-11:
+Process Process-12:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Process-16:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Process-1:
+Process Process-2:
+Process Process-6:
+Process Process-10:
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+    self._target(*self._args, **self._kwargs)
+  File "./removecomments_ph.py", line 22, in RemoveCommentFunc
+  File "./removecomments_ph.py", line 22, in RemoveCommentFunc
+    self.run()
+    self.run()
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    collection.update({"_id":c["_id"]}, {"$pull": {"commentList": {"id":{"$gt":-1}}}})
+    collection.update({"_id":c["_id"]}, {"$pull": {"commentList": {"id":{"$gt":-1}}}})
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/collection.py", line 487, in update
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/collection.py", line 487, in update
+    self._target(*self._args, **self._kwargs)
+    self._target(*self._args, **self._kwargs)
+    self._target(*self._args, **self._kwargs)
+  File "./removecomments_ph.py", line 21, in RemoveCommentFunc
+  File "./removecomments_ph.py", line 21, in RemoveCommentFunc
+  File "./removecomments_ph.py", line 21, in RemoveCommentFunc
+Process Process-18:
+    self.run()
+Process Process-19:
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    for c in cursor:
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+Traceback (most recent call last):
+    for c in cursor:
+    for c in cursor:
+    self._target(*self._args, **self._kwargs)
+    self.run()
+    self.run()
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/cursor.py", line 904, in next
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/cursor.py", line 904, in next
+    self._target(*self._args, **self._kwargs)
+  File "./removecomments_ph.py", line 22, in RemoveCommentFunc
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+  File "./removecomments_ph.py", line 22, in RemoveCommentFunc
+Process Process-9:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Process-3:
+    self._target(*self._args, **self._kwargs)
+    self._target(*self._args, **self._kwargs)
+Process Process-13:
+    collection.update({"_id":c["_id"]}, {"$pull": {"commentList": {"id":{"$gt":-1}}}})
+Traceback (most recent call last):
+Process Process-7:
+  File "./removecomments_ph.py", line 21, in RemoveCommentFunc
+  File "./removecomments_ph.py", line 22, in RemoveCommentFunc
+    collection.update({"_id":c["_id"]}, {"$pull": {"commentList": {"id":{"$gt":-1}}}})
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/collection.py", line 487, in update
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/collection.py", line 487, in update
+Traceback (most recent call last):
+Traceback (most recent call last):
+Process Process-20:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+    collection.update({"_id":c["_id"]}, {"$pull": {"commentList": {"id":{"$gt":-1}}}})
+    for c in cursor:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/collection.py", line 487, in update
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/cursor.py", line 904, in next
+Traceback (most recent call last):
+    self.run()
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    check_keys, self.__uuid_subtype), safe)
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    check_keys, self.__uuid_subtype), safe)
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/mongo_client.py", line 968, in _send_message
+    self._target(*self._args, **self._kwargs)
+  File "./removecomments_ph.py", line 21, in RemoveCommentFunc
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/mongo_client.py", line 968, in _send_message
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+  File "./removecomments_ph.py", line 21, in RemoveCommentFunc
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/cursor.py", line 904, in next
+    self._target(*self._args, **self._kwargs)
+    for c in cursor:
+Process Process-17:
+    self.run()
+  File "./removecomments_ph.py", line 22, in RemoveCommentFunc
+    for c in cursor:
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/cursor.py", line 904, in next
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self.run()
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/cursor.py", line 904, in next
+Process Process-5:
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+Process Process-15:
+    if len(self.__data) or self._refresh():
+    if len(self.__data) or self._refresh():
+Traceback (most recent call last):
+  File "./removecomments_ph.py", line 22, in RemoveCommentFunc
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/cursor.py", line 848, in _refresh
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/cursor.py", line 848, in _refresh
+    collection.update({"_id":c["_id"]}, {"$pull": {"commentList": {"id":{"$gt":-1}}}})
+    self.run()
+    self.run()
+    self.__uuid_subtype))
+    self.__uuid_subtype))
+  File "./removecomments_ph.py", line 21, in RemoveCommentFunc
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/cursor.py", line 800, in __send_message
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/cursor.py", line 800, in __send_message
+    self.run()
+    collection.update({"_id":c["_id"]}, {"$pull": {"commentList": {"id":{"$gt":-1}}}})
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/collection.py", line 487, in update
+    self._target(*self._args, **self._kwargs)
+    self._target(*self._args, **self._kwargs)
+  File "./removecomments_ph.py", line 22, in RemoveCommentFunc
+  File "./removecomments_ph.py", line 21, in RemoveCommentFunc
+Traceback (most recent call last):
+    for c in cursor:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/cursor.py", line 904, in next
+    collection.update({"_id":c["_id"]}, {"$pull": {"commentList": {"id":{"$gt":-1}}}})
+    for c in cursor:
+    sock_info)
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+    if len(self.__data) or self._refresh():
+    if len(self.__data) or self._refresh():
+    sock_info)
+    if len(self.__data) or self._refresh():
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/cursor.py", line 848, in _refresh
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/mongo_client.py", line 1003, in __receive_message_on_socket
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/cursor.py", line 848, in _refresh
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/mongo_client.py", line 1003, in __receive_message_on_socket
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self.__uuid_subtype))
+    header = self.__receive_data_on_socket(16, sock_info)
+    self.__uuid_subtype))
+    header = self.__receive_data_on_socket(16, sock_info)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/cursor.py", line 800, in __send_message
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/cursor.py", line 782, in __send_message
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/mongo_client.py", line 991, in __receive_data_on_socket
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/mongo_client.py", line 991, in __receive_data_on_socket
+    if len(self.__data) or self._refresh():
+    res = client._send_message_with_response(message, **kwargs)
+    self._target(*self._args, **self._kwargs)
+    self.__uuid_subtype)
+    chunk = sock_info.sock.recv(length)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/mongo_client.py", line 1042, in _send_message_with_response
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/cursor.py", line 848, in _refresh
+  File "./removecomments_ph.py", line 21, in RemoveCommentFunc
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/helpers.py", line 107, in _unpack_response
+    chunk = sock_info.sock.recv(length)
+KeyboardInterrupt
+    self.__uuid_subtype)
+    self.__uuid_subtype))
+    check_keys, self.__uuid_subtype), safe)
+    check_keys, self.__uuid_subtype), safe)
+KeyboardInterrupt
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/cursor.py", line 800, in __send_message
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/mongo_client.py", line 968, in _send_message
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/helpers.py", line 107, in _unpack_response
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/mongo_client.py", line 968, in _send_message
+    self.run()
+    for c in cursor:
+    self.__uuid_subtype)
+    as_class, tz_aware, uuid_subtype)
+    check_keys, self.__uuid_subtype), safe)
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/cursor.py", line 904, in next
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 522, in decode_all
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/mongo_client.py", line 960, in _send_message
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/helpers.py", line 107, in _unpack_response
+    self.__uuid_subtype)
+    self._target(*self._args, **self._kwargs)
+    self._target(*self._args, **self._kwargs)
+  File "./removecomments_ph.py", line 22, in RemoveCommentFunc
+  File "./removecomments_ph.py", line 21, in RemoveCommentFunc
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/helpers.py", line 107, in _unpack_response
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/collection.py", line 487, in update
+    as_class, tz_aware, uuid_subtype)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/collection.py", line 487, in update
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 522, in decode_all
+    if len(self.__data) or self._refresh():
+    collection.update({"_id":c["_id"]}, {"$pull": {"commentList": {"id":{"$gt":-1}}}})
+    for c in cursor:
+    as_class, tz_aware, uuid_subtype)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/cursor.py", line 848, in _refresh
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/cursor.py", line 904, in next
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/cursor.py", line 904, in next
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/collection.py", line 487, in update
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 522, in decode_all
+    self.__uuid_subtype))
+    tz_aware, uuid_subtype))
+    as_class, tz_aware, uuid_subtype)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/cursor.py", line 800, in __send_message
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 332, in _elements_to_dict
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+    response = self.__send_and_receive(message, sock_info)
+    self.__uuid_subtype)
+    tz_aware, uuid_subtype)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 522, in decode_all
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/mongo_client.py", line 1020, in __send_and_receive
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/helpers.py", line 107, in _unpack_response
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 322, in _element_to_dict
+    check_keys, self.__uuid_subtype), safe)
+    return self.__receive_message_on_socket(1, request_id, sock_info)
+    tz_aware, uuid_subtype)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/mongo_client.py", line 1003, in __receive_message_on_socket
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/mongo_client.py", line 969, in _send_message
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 166, in _get_array
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/cursor.py", line 848, in _refresh
+    header = self.__receive_data_on_socket(16, sock_info)
+    as_class, tz_aware, uuid_subtype)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/mongo_client.py", line 991, in __receive_data_on_socket
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 156, in _get_object
+    chunk = sock_info.sock.recv(length)
+    object = _elements_to_dict(encoded, as_class, tz_aware, uuid_subtype)
+    self.__uuid_subtype))
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 332, in _elements_to_dict
+KeyboardInterrupt
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/cursor.py", line 782, in __send_message
+    tz_aware, uuid_subtype)
+    as_class, tz_aware, uuid_subtype)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 322, in _element_to_dict
+    res = client._send_message_with_response(message, **kwargs)
+    tz_aware, uuid_subtype)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 522, in decode_all
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 156, in _get_object
+    if len(self.__data) or self._refresh():
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/mongo_client.py", line 1042, in _send_message_with_response
+    object = _elements_to_dict(encoded, as_class, tz_aware, uuid_subtype)
+    sock_info.sock.sendall(data)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/cursor.py", line 848, in _refresh
+    tz_aware, uuid_subtype))
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 332, in _elements_to_dict
+    tz_aware, uuid_subtype))
+    self.__uuid_subtype))
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 332, in _elements_to_dict
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    self.run()
+    tz_aware, uuid_subtype)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 332, in _elements_to_dict
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 322, in _element_to_dict
+    tz_aware, uuid_subtype)
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    tz_aware, uuid_subtype)
+    sock_info)
+    sock_info)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 166, in _get_array
+    tz_aware, uuid_subtype)
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/mongo_client.py", line 1003, in __receive_message_on_socket
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/mongo_client.py", line 1003, in __receive_message_on_socket
+    as_class, tz_aware, uuid_subtype)
+  File "./removecomments_ph.py", line 22, in RemoveCommentFunc
+    tz_aware, uuid_subtype))
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 320, in _element_to_dict
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 322, in _element_to_dict
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 156, in _get_object
+    header = self.__receive_data_on_socket(16, sock_info)
+    if len(self.__data) or self._refresh():
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 332, in _elements_to_dict
+    element_name, position = _get_c_string(data, position)
+    if len(self.__data) or self._refresh():
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/mongo_client.py", line 991, in __receive_data_on_socket
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/cursor.py", line 848, in _refresh
+    collection.update({"_id":c["_id"]}, {"$pull": {"commentList": {"id":{"$gt":-1}}}})
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/cursor.py", line 848, in _refresh
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/cursor.py", line 800, in __send_message
+    tz_aware, uuid_subtype)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 111, in _get_c_string
+    tz_aware, uuid_subtype)
+    self.__uuid_subtype))
+    self.__uuid_subtype))
+    tz_aware, uuid_subtype))
+    chunk = sock_info.sock.recv(length)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 166, in _get_array
+    value = data[position:end].decode("utf-8")
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 320, in _element_to_dict
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/cursor.py", line 800, in __send_message
+    check_keys, self.__uuid_subtype), safe)
+    as_class, tz_aware, uuid_subtype)
+KeyboardInterrupt
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    element_name, position = _get_c_string(data, position)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 156, in _get_object
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/mongo_client.py", line 969, in _send_message
+    self.__uuid_subtype)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 106, in _get_c_string
+    return getattr(self._sock,name)(*args)
+    object = _elements_to_dict(encoded, as_class, tz_aware, uuid_subtype)
+    check_keys, self.__uuid_subtype), safe)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/helpers.py", line 107, in _unpack_response
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 332, in _elements_to_dict
+    end = data.index(ZERO, position)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/mongo_client.py", line 968, in _send_message
+KeyboardInterrupt
+    tz_aware, uuid_subtype)
+    return codecs.utf_8_decode(input, errors, True)
+KeyboardInterrupt
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 322, in _element_to_dict
+    rv = self.__check_response_to_last_error(response)
+    check_keys, self.__uuid_subtype), safe)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/mongo_client.py", line 884, in __check_response_to_last_error
+KeyboardInterrupt
+    tz_aware, uuid_subtype)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/message.py", line 116, in update
+    header = self.__receive_data_on_socket(16, sock_info)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 156, in _get_object
+    response = helpers._unpack_response(response)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/helpers.py", line 107, in _unpack_response
+    as_class, tz_aware, uuid_subtype)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/mongo_client.py", line 991, in __receive_data_on_socket
+    object = _elements_to_dict(encoded, as_class, tz_aware, uuid_subtype)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 522, in decode_all
+    object = _elements_to_dict(encoded, as_class, tz_aware, uuid_subtype)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 332, in _elements_to_dict
+    chunk = sock_info.sock.recv(length)
+    response = self.__send_and_receive(message, sock_info)
+    tz_aware, uuid_subtype)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 332, in _elements_to_dict
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/mongo_client.py", line 1020, in __send_and_receive
+KeyboardInterrupt
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 320, in _element_to_dict
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/collection.py", line 487, in update
+    tz_aware, uuid_subtype)
+    return self.__receive_message_on_socket(1, request_id, sock_info)
+    element_name, position = _get_c_string(data, position)
+    encoded = bson.BSON.encode(doc, check_keys, uuid_subtype)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 322, in _element_to_dict
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/mongo_client.py", line 1003, in __receive_message_on_socket
+    as_class, tz_aware, uuid_subtype)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 111, in _get_c_string
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/cursor.py", line 800, in __send_message
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 573, in encode
+    tz_aware, uuid_subtype)
+    header = self.__receive_data_on_socket(16, sock_info)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 522, in decode_all
+    value = data[position:end].decode("utf-8")
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 148, in _get_string
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/mongo_client.py", line 991, in __receive_data_on_socket
+    self.__uuid_subtype)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return _get_c_string(data, position, length - 1)
+    chunk = sock_info.sock.recv(length)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 111, in _get_c_string
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/helpers.py", line 107, in _unpack_response
+    self.__uuid_subtype)
+    value = data[position:end].decode("utf-8")
+KeyboardInterrupt
+    rv = self.__check_response_to_last_error(response)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/helpers.py", line 107, in _unpack_response
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/mongo_client.py", line 884, in __check_response_to_last_error
+    return codecs.utf_8_decode(input, errors, True)
+    response = helpers._unpack_response(response)
+    sock_info)
+    tz_aware, uuid_subtype))
+KeyboardInterrupt
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/helpers.py", line 107, in _unpack_response
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/mongo_client.py", line 1003, in __receive_message_on_socket
+    return codecs.utf_8_decode(input, errors, True)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 332, in _elements_to_dict
+    as_class, tz_aware, uuid_subtype)
+KeyboardInterrupt
+    header = self.__receive_data_on_socket(16, sock_info)
+    tz_aware, uuid_subtype)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 522, in decode_all
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/mongo_client.py", line 991, in __receive_data_on_socket
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 322, in _element_to_dict
+    as_class, tz_aware, uuid_subtype)
+    chunk = sock_info.sock.recv(length)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 522, in decode_all
+    tz_aware, uuid_subtype)
+    return cls(_dict_to_bson(document, check_keys, uuid_subtype))
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 166, in _get_array
+KeyboardInterrupt
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 482, in _dict_to_bson
+    as_class, tz_aware, uuid_subtype)
+    as_class, tz_aware, uuid_subtype)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 522, in decode_all
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 156, in _get_object
+    elements.append(_element_to_bson(key, value, check_keys, uuid_subtype))
+    tz_aware, uuid_subtype))
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 351, in _element_to_bson
+    object = _elements_to_dict(encoded, as_class, tz_aware, uuid_subtype)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 332, in _elements_to_dict
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 332, in _elements_to_dict
+    if not isinstance(key, basestring):
+    tz_aware, uuid_subtype)
+    tz_aware, uuid_subtype)
+KeyboardInterrupt
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 322, in _element_to_dict
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 322, in _element_to_dict
+    tz_aware, uuid_subtype)
+    tz_aware, uuid_subtype)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 156, in _get_object
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 156, in _get_object
+    object = _elements_to_dict(encoded, as_class, tz_aware, uuid_subtype)
+    object = _elements_to_dict(encoded, as_class, tz_aware, uuid_subtype)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 332, in _elements_to_dict
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 332, in _elements_to_dict
+    tz_aware, uuid_subtype)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 322, in _element_to_dict
+    tz_aware, uuid_subtype))
+    tz_aware, uuid_subtype)
+    tz_aware, uuid_subtype))
+    tz_aware, uuid_subtype)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 322, in _element_to_dict
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 332, in _elements_to_dict
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 156, in _get_object
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 332, in _elements_to_dict
+    tz_aware, uuid_subtype)
+    tz_aware, uuid_subtype)
+    object = _elements_to_dict(encoded, as_class, tz_aware, uuid_subtype)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 96, in _get_int
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 322, in _element_to_dict
+    tz_aware, uuid_subtype)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 332, in _elements_to_dict
+    value = struct.unpack("<%s" % format, data[position:position + 4])[0]
+    tz_aware, uuid_subtype))
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 318, in _element_to_dict
+    tz_aware, uuid_subtype)
+    tz_aware, uuid_subtype)
+    check_keys, self.__uuid_subtype), safe)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 332, in _elements_to_dict
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 320, in _element_to_dict
+KeyboardInterrupt
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 167, in _get_array
+    element_type = data[position:position + 1]
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/mongo_client.py", line 981, in _send_message
+    element_name, position = _get_c_string(data, position)
+    tz_aware, uuid_subtype)
+    result = []
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 111, in _get_c_string
+KeyboardInterrupt
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 322, in _element_to_dict
+    value = data[position:end].decode("utf-8")
+KeyboardInterrupt
+    tz_aware, uuid_subtype)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 156, in _get_object
+    object = _elements_to_dict(encoded, as_class, tz_aware, uuid_subtype)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 332, in _elements_to_dict
+    tz_aware, uuid_subtype)
+    return codecs.utf_8_decode(input, errors, True)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 322, in _element_to_dict
+    tz_aware, uuid_subtype)
+KeyboardInterrupt
+KeyboardInterrupt
+    self.__pool.maybe_return_socket(sock_info)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/pool.py", line 411, in maybe_return_socket
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/bson/__init__.py", line 333, in _elements_to_dict
+    result[key] = value
+KeyboardInterrupt
+    if sock_info != self._get_request_state():
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/pool.py", line 518, in _get_request_state
+    tid = self._ident.get()
+  File "/usr/local/lib/python2.7/dist-packages/pymongo-2.6.3-py2.7-linux-x86_64.egg/pymongo/thread_util.py", line 104, in get
+    def get(self):
+KeyboardInterrupt
+start time: Mon Dec 30 15:34:30 2013
+main thread over
+total  10409.213578 seconds
